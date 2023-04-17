@@ -1,0 +1,44 @@
+div {
+    background-color: blacks;
+    padding: 0px;
+    border: 1px solid;
+    margin-bottom: 5px;
+    padding: 10px;
+text-align: center;
+font-size: 40px;
+color: aqua;
+}
+
+/*selector de clase */
+
+.mi-div {
+    color: blue;
+}
+
+/* selector de id */
+
+#un-id {
+color: blueviolet;
+}
+
+.primer-div {
+    display: block;
+display: inline;
+overflow: auto;
+}
+
+#segundo.div {
+margin-top: 30px;
+margin-bottom: 5px;
+}
+
+/*-----------------------*/
+
+ul {
+    color: brown;
+}
+
+ul > li {
+    color: blue;
+}
+
