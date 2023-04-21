@@ -5,6 +5,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
+    flex-direction: column;
 }
 
 .her{
@@ -36,4 +37,16 @@ body {
     color: beige;
     background-color: black;
     width: 200vh;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    color: bisque;
+}
+.main main {
+    display: flex;
+    justify-content: center;
+    width: 160vh;
+    background-color: #0007;
+    padding: 5px;
 }
