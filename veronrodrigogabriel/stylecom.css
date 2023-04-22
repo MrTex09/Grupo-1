@@ -2,7 +2,7 @@ body {
     display: flex;
     background-image: url(Fondo.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     height: 100vh;
     flex-direction: column;
@@ -42,6 +42,7 @@ body {
     display: flex;
     justify-content: center;
     color: white;
+    
 }
 .main main {
     display: flex;
@@ -49,4 +50,12 @@ body {
     width: 198.4vh;
     background-color: #0007;
     padding: 5px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.main main img{
+    display: flex;
+    width: 80vh;
 }
