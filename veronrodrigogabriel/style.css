@@ -3,6 +3,7 @@ body {
     background-color: black;
     flex-direction: column;
     font-family:cursive;
+    color: white;
 }
 .her{
     display: flex;
@@ -29,14 +30,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    color: beige;
     background-color: black;
     width: 200vh;
 }
 .main {
     display: flex;
     justify-content: center;
-    color: white;
     background-image: url(Fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -49,4 +48,9 @@ body {
     width: 198.4vh;
     background-color: #0007;
     padding: 5px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
 }

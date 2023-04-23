@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     font-family: cursive;
     background-color: black;
+    color: white;
 }
 
 .her{
@@ -25,20 +26,18 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    color: beige;
     background-color: black;
     width: 200vh;
 }
 .main {
     display: flex;
     justify-content: center;
-    color: white;
     background-image: url(Fondo.jpg);
     background-size: cover;
     background-repeat: repeat;
     background-position: center;
     height: 100vh;
-    
+    flex-direction: row;
 }
 .main main {
     display: flex;
@@ -46,12 +45,19 @@ body {
     width: 198.4vh;
     background-color: #0007;
     padding: 5px;
+    flex-direction: row;
 }
 .img{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    background-color: #0007;
 }
 .main main img{
     display: flex;
     width: 80vh;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
 }
