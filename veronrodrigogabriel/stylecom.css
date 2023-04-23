@@ -1,16 +1,12 @@
 body {
     display: flex;
-    background-image: url(Fondo.jpg);
-    background-size: cover;
-    background-repeat: repeat;
-    background-position: center;
-    height: 100vh;
     flex-direction: column;
+    font-family: cursive;
+    background-color: black;
 }
 
 .her{
     display: flex;
-    margin: 0 auto;
     flex-direction: column;
     
 }
@@ -18,17 +14,12 @@ body {
     display: flex;
     flex-direction: column;
 }
-.her header img {
+.nav{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 100px;
+    justify-content: space-around;
 }
-.logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.nav img{
+    width: 100px;
 }
 .nav nav{
     display: flex;
@@ -42,6 +33,11 @@ body {
     display: flex;
     justify-content: center;
     color: white;
+    background-image: url(Fondo.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    height: 100vh;
     
 }
 .main main {
