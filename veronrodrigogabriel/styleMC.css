@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    font-family:cursive;
+    color: white;
+}
+.her{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.her header {
+    display: flex;
+    flex-direction: column;
+}
+.her header img {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+.nav nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200vh;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    background-image: url(Fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main main {
+    display: flex;
+    justify-content: start;
+    width: 198.4vh;
+    background-color: #0007;
+    padding: 5px;
+}
+.DLQ{
+    display: flex;
+    background-color: #0007;
+}
+.DLQ img{
+    display: flex;
+    width: 75vh;
+}
+.ASM {
+    display: flex;
+    background-color: #0007;
+}
+.ASM img{
+    width: 75vh;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
