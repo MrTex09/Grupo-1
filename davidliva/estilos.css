@@ -1,114 +1,74 @@
+/*Fondo*/
 body{
-    padding: 0;
-    margin: 0;
+	background-color: rgb(66, 66, 235);
 }
 
-/*Header*/
-.estilo-titulo-1{
-    display: flex;
-    font-size: 50px ;
-    justify-content: center;
-    color: rgb(255, 239, 188);
-    text-shadow: 4px 3px 1px rgb(0, 0, 0);
+/*Primer titulo*/
+.titulo-1{
+	color: pink;
+	text-align: center;
+	text-shadow: 4px -2px 1px black;
 }
-/*Fin header*/
-
-/*Artículos*/
-
-.padre-articulo-1{
-    display: flex;
-    
+/*Padre nav*/
+.padre-nav{
+	display: flex;
+	border: 3px solid black;
+	padding: 7px;
 }
 
-.hijo-articulo-1{
-    width: 50%;
-    height: 250px;
-    border: 3px solid rgb(0, 0, 0);
+/*Hijos del nav*/
+.hijos-nav{
+	padding-left: 10%;
+	color: white;
 }
 
-.juego-version-1{
- 
+/*Padres artículos*/
+.padre-artículo1{
+	display: flex;
+
 }
-/*
-.version-prueba-1{
-    display: flex;
-    width: 50%;
-    direction: row;
-}
-.juego-version-2{
-    display: flex;
-    
-}
-.juego-version-2-0{
-    width: 130px;
+/*Padres de parrafos*/
+.padre-parrafo-2{
+	display: flex;
+	width: 80%;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
-.juego-version-3{
-    display: flex;
-    
+
+/*Parrafos*/
+.primer-parrafo{
+	color: white;
+	border: 3px solid black;
+	width: 100%;
+	height: 50%;
+
 }
-.juego-version-3-0{
-    width:150px;
+.parrafo-2{
+	color: #fff;
+	border: 3px solid #000000;
+	height: 200px;
+	
 }
 
-.juego-version-4{
-    display: flex;
-    
+/*Artículo*/
+.padre-imagen-1{
+	display: flex;
+	width: 100%;
+	justify-content: center;
 }
-.juego-version-4-0{
-    width: 200px;
-}*/
-
+.imagen-1{
+	height: 380px;
+	
+	
+}
+.padre-imagen-2{
+	display: flex;
+	width: 100px;
+}
+.imagen-2{
+	height: 300px;
+}
 
 /*Fin artículo*/
-
-.nav1{
-    background-color: rgb(17, 17, 80);
-    border: 3px solid rgb(17, 17, 139);
-}
-
-
-.nav-inicio{
-    padding: 50px;
-    font-size: 25px;
-    color: rgb(255, 255, 255);
-}
-
-.nav-noved{
-    padding: 50px;
-    font-size: 25px;
-    color: rgb(255, 255, 255);
-}
-
-.nav-hist{
-    padding: 50px;
-    font-size: 25px;
-    color: rgb(255, 255, 255);
-}
-
-.nav-acer{
-    padding: 50px;
-    font-size: 25px;
-    color: rgb(255, 255, 255);
-}
-
-.nav-ini{
-    padding: 50px;
-    font-size: 25px;
-    color: rgb(255, 255, 255);
-}
-
-.nav-regis{
-    padding: 50px;
-    font-size: 25px;
-    color: rgb(255, 255, 255);
-}
-
-.div1{
-    border: 3px solid black;
-    margin-bottom: 5px;
-    margin-left: 2px;
-    display: flex;
-    width: 50%;
-    height: 200px;
-}
