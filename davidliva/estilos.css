@@ -1,0 +1,114 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/*Header*/
+.estilo-titulo-1{
+    display: flex;
+    font-size: 50px ;
+    justify-content: center;
+    color: rgb(255, 239, 188);
+    text-shadow: 4px 3px 1px rgb(0, 0, 0);
+}
+/*Fin header*/
+
+/*Artículos*/
+
+.padre-articulo-1{
+    display: flex;
+    
+}
+
+.hijo-articulo-1{
+    width: 50%;
+    height: 250px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.juego-version-1{
+ 
+}
+/*
+.version-prueba-1{
+    display: flex;
+    width: 50%;
+    direction: row;
+}
+.juego-version-2{
+    display: flex;
+    
+}
+.juego-version-2-0{
+    width: 130px;
+}
+
+.juego-version-3{
+    display: flex;
+    
+}
+.juego-version-3-0{
+    width:150px;
+}
+
+.juego-version-4{
+    display: flex;
+    
+}
+.juego-version-4-0{
+    width: 200px;
+}*/
+
+
+/*Fin artículo*/
+
+.nav1{
+    background-color: rgb(17, 17, 80);
+    border: 3px solid rgb(17, 17, 139);
+}
+
+
+.nav-inicio{
+    padding: 50px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-noved{
+    padding: 50px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-hist{
+    padding: 50px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-acer{
+    padding: 50px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-ini{
+    padding: 50px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-regis{
+    padding: 50px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.div1{
+    border: 3px solid black;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    display: flex;
+    width: 50%;
+    height: 200px;
+}

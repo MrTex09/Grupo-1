@@ -1,0 +1,32 @@
+body {
+	background-image: url(https://th.bing.com/th/id/OIP.smTiAqBFIJ0ydId0mfPiugHaEA?pid=ImgDet&rs=1);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color:rgb(255, 0, 0);
+}
+header {
+	background-color: #333;
+	padding: 5px;
+}
+section {
+	padding: 15px;
+}
+footer {
+	background-color: #333;
+	color: #fbff00;
+	padding: 20px;
+	text-align: center;
+}
+#h3 {
+	color: aquamarine;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p {
+	font-family:fantasy;
+}
