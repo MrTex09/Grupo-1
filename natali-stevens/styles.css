@@ -47,5 +47,10 @@ main {
 	display: flex;
 	flex-direction: column;
  	align-items: center;
-	background-color: rgb(190, 186, 186);
+	background-color: rgb(137, 195, 206);
+}
+
+#imagen1 {
+	width: 60%;
+	border-radius: 10px;
 }
