@@ -9,6 +9,12 @@ body {
 header {
 	background-color: #f0f0f0;
 	padding: 20px;
+	text-align: center;
+}
+
+h3 {
+	display: inline-block;
+	font-family:'Courier New', Courier, monospace;
 }
 
 nav {
@@ -32,6 +38,6 @@ nav ul li {
 }
 
 nav ul li a {
-	color: #fff;
+	color: #000000;
 	text-decoration: none;
 }
