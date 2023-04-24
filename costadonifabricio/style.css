@@ -11,7 +11,7 @@ body {
 	color:rgb(255, 0, 0);
 }
 header {
-	background-color: #9b7f7f;
+	background-color: #333;
 	padding: 5px;
 }
 section {
@@ -22,4 +22,11 @@ footer {
 	color: #fbff00;
 	padding: 20px;
 	text-align: center;
+}
+#h3 {
+	color: aquamarine;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p {
+	font-family:fantasy;
 }
