@@ -1,44 +1,25 @@
-div {
-    background-color: blacks;
-    padding: 0px;
-    border: 1px solid;
-    margin-bottom: 5px;
-    padding: 10px;
-text-align: center;
-font-size: 40px;
-color: aqua;
+* {
+    color: black;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/*selector de clase */
-
-.mi-div {
-    color: blue;
+body {
+    background-image: url(449944d22ec236b0ec773692f6ea38a5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: large;
 }
 
-/* selector de id */
-
-#un-id {
-color: blueviolet;
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
 }
 
-.primer-div {
-    display: block;
-display: inline;
-overflow: auto;
+footer {
+    justify-content: center;
+    display: flex;
+    height: 40vh;
 }
-
-#segundo.div {
-margin-top: 30px;
-margin-bottom: 5px;
-}
-
-/*-----------------------*/
-
-ul {
-    color: brown;
-}
-
-ul > li {
-    color: blue;
-}
-
