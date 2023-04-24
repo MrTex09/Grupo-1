@@ -19,18 +19,11 @@ body {
     justify-content: center;
     width: 100px;
 }
-.logo{
-    display: flex;
-    justify-content: center;
-}
-.logo img{
-    width: 350px;
-}
+
 .nav nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: black;
     width: 200vh;
 }
 .main {
@@ -40,14 +33,33 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 120vh;
 }
 .main main {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     width: 198.4vh;
     background-color: #0007;
     padding: 5px;
+}
+.DLQ{
+    display: flex;
+    background-color: #0007;
+    justify-content: space-between;
+    width: 95vw;
+}
+.DLQ img{
+    align-self: flex-end;
+    width: 75vh;
+}
+.ASM {
+    display: flex;
+    background-color: #0007;
+    justify-content: space-between;
+    width: 95vw;
+}
+.ASM img{
+    width: 75vh;
+    align-self: flex-end;
 }
 footer{
     display: flex;

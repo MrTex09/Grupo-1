@@ -1,30 +1,26 @@
 body {
     display: flex;
-    background-color: black;
     flex-direction: column;
-    font-family:cursive;
+    font-family: cursive;
+    background-color: black;
     color: white;
 }
+
 .her{
     display: flex;
-    margin: 0 auto;
     flex-direction: column;
+    
 }
 .her header {
     display: flex;
     flex-direction: column;
 }
-.her header img {
+.nav{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+}
+.nav img{
     width: 100px;
-}
-.logo{
-    display: flex;
-    justify-content: center;
-}
-.logo img{
-    width: 350px;
 }
 .nav nav{
     display: flex;
@@ -38,9 +34,10 @@ body {
     justify-content: center;
     background-image: url(Fondo.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
-    height: 120vh;
+    height: 100vh;
+    flex-direction: row;
 }
 .main main {
     display: flex;
@@ -48,6 +45,16 @@ body {
     width: 198.4vh;
     background-color: #0007;
     padding: 5px;
+    flex-direction: row;
+}
+.img{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #0007;
+}
+.main main img{
+    display: flex;
+    width: 80vh;
 }
 footer{
     display: flex;
